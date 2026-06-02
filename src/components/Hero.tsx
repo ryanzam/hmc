@@ -1,10 +1,9 @@
 import { ArrowRight } from "lucide-react";
 
 const trust = [
-    "120+ Cases Solved",
     "130+ Happy Clients",
-    "3 Regional Offices",
-    "45+ Legal Associates",
+    "2 Regional Offices",
+    "10+ Team Members",
 ];
 
 export function Hero() {
@@ -15,13 +14,14 @@ export function Hero() {
         >
             <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-12 px-6 pt-32 pb-24 lg:grid-cols-5 lg:px-10">
                 <div className="lg:col-span-3">
+                    <p className="eyebrow text-gold">Helping Clients Since 2018 · Kathmandu, Nepal</p>
                     <h1 className="mt-6 font-serif text-5xl leading-[1.05] text-white sm:text-6xl lg:text-7xl">
                         Your Finances,
                         <br />
                         <span className="italic text-gold-soft">Expertly Managed.</span>
                     </h1>
                     <p className="mt-7 max-w-xl text-base font-light leading-relaxed text-white/75 sm:text-lg">
-                        Haven Management Consultants brings together finance professionals, tax experts,
+                        Haven Management Consultants brings together finance professionals, tax experts, book keepers
                         and legal practitioners to handle your business's financial complexities — so you
                         can focus on what you do best.
                     </p>

@@ -5,6 +5,7 @@ import './App.css'
 
 import { Navbar } from './components/Navbar'
 import { Hero } from './components/Hero'
+import { AboutUs } from './components/AboutUs'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
     <main className="min-h-screen bg-surface">
       <Navbar />
       <Hero />
+      <AboutUs />
     </main>
   )
 }

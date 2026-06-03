@@ -37,7 +37,7 @@ export function AboutUs() {
                         <Reveal key={c.label} delay={i * 120}>
                             <div className="border-l-2 border-gold bg-white p-8 shadow-[0_1px_2px_oklch(0_0_0_/_0.04),_0_8px_24px_-12px_oklch(0_0_0_/_0.08)]">
                                 <p className="eyebrow text-gold">{c.label}</p>
-                                <p className="mt-4 font-serif text-2xl leading-snug text-navy">{c.body}</p>
+                                <p className="mt-4 font-serif text-xl leading-snug text-navy">{c.body}</p>
                             </div>
                         </Reveal>
                     ))}

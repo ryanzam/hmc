@@ -21,7 +21,7 @@ export function Navbar() {
 
     return (
         <header
-            className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${scrolled ? "bg-white/95 backdrop-blur shadow-[0_1px_0_var(--rule)]" : "bg-transparent"
+            className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${scrolled ? "bg-white/80 backdrop-blur shadow-[0_1px_0_var(--rule)]" : "bg-transparent"
                 }`}
         >
             <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">

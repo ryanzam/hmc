@@ -1,11 +1,10 @@
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
+//import viteLogo from './assets/vite.svg'
 import './App.css'
 
 import { Navbar } from './components/Navbar'
 import { Hero } from './components/Hero'
 import { AboutUs } from './components/AboutUs'
+import { Services } from './components/Services'
 
 function App() {
 
@@ -14,6 +13,7 @@ function App() {
       <Navbar />
       <Hero />
       <AboutUs />
+      <Services />
     </main>
   )
 }

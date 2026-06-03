@@ -7,9 +7,9 @@ import {
 import { Reveal } from "./Reveal";
 
 const services: { icon: LucideIcon; title: string; body: string }[] = [
-    { icon: Calculator, title: "Taxation & Compliance", body: "VAT, income tax, TDS filing and full regulatory compliance for Nepali businesses." },
-    { icon: BookOpen, title: "Accounting & Bookkeeping", body: "Accurate, timely financial records using modern accounting software." },
-    { icon: Search, title: "Audit & Assurance", body: "Independent financial audits that build credibility with stakeholders." },
+    { icon: Calculator, title: "Accounting", body: "VAT, income tax filing for Nepali businesses." },
+    { icon: BookOpen, title: "Bookkeeping", body: "Accurate, timely financial records using modern accounting software." },
+    { icon: Search, title: "Auditing", body: "Independent financial audits that build credibility with stakeholders." },
 ];
 
 export function Services() {

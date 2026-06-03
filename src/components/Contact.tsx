@@ -81,7 +81,7 @@ export function Contact() {
             </div>
 
             <div id="contact-form" className="bg-surface py-24 lg:py-32">
-                <div className="mx-auto grid max-w-6xl gap-16 px-6 lg:grid-cols-5 lg:px-10">
+                <div className="mx-auto grid max-w-6xl gap-16 px-6">
                     <Reveal delay={120} className="lg:col-span-3">
                         {submitted ? (
                             <div className="border-l-2 border-gold bg-white p-10 shadow-[0_8px_24px_-12px_oklch(0_0_0_/_0.12)]">

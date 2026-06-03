@@ -2,7 +2,6 @@ import { ArrowRight } from "lucide-react";
 
 const trust = [
     "130+ Happy Clients",
-    "2 Regional Offices",
     "10+ Team Members",
 ];
 

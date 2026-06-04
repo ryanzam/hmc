@@ -49,10 +49,10 @@ export function Navbar() {
                 </ul>
 
                 <a
-                    href="#contact"
+                    href="tel:+9774034939"
                     className="hidden rounded-full bg-gold px-5 py-2.5 text-sm font-medium text-navy transition hover:brightness-95 md:inline-block"
                 >
-                    Book a Consultation
+                    Call Us Now
                 </a>
 
                 <button
@@ -65,7 +65,7 @@ export function Navbar() {
             </nav>
 
             {open && (
-                <div className="fixed inset-0 z-60 flex flex-col bg-navy text-white">
+                <div className="mobile-menu fixed inset-0 z-60 flex flex-col bg-navy text-white">
                     <div className="flex items-center justify-between px-6 py-4">
                         <span className="font-serif text-2xl font-bold">HMC</span>
                         <button aria-label="Close menu" onClick={() => setOpen(false)}>
@@ -86,10 +86,10 @@ export function Navbar() {
                         ))}
                         <a
                             onClick={() => setOpen(false)}
-                            href="#contact"
+                            href="tel:+9774034939"
                             className="mt-6 rounded-full bg-gold px-6 py-3 text-sm font-medium text-navy"
                         >
-                            Book a Consultation
+                            Call Us Now
                         </a>
                     </ul>
                 </div>

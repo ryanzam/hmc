@@ -1,4 +1,3 @@
-//import viteLogo from './assets/vite.svg'
 import './App.css'
 
 import { Navbar } from './components/Navbar'

@@ -203,4 +203,9 @@
     border-radius: 9999px;
     background: var(--gold);
   }
+
+  .mobile-menu {
+    height: 100vh;
+    overflow-y: hidden;
+  }
 }

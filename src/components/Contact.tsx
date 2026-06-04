@@ -17,14 +17,10 @@ const schema = z.object({
 });
 
 const services = [
-    "Taxation & Compliance",
-    "Accounting & Bookkeeping",
-    "Audit & Assurance",
-    "Corporate Law & Secretarial",
-    "Financial Management",
-    "Strategic Planning",
-    "Operational Efficiency",
-    "Risk Management",
+    "Accounting ",
+    "Auditing",
+    "Bookkeeping",
+    "Taxation",
 ];
 
 type Errors = Partial<Record<keyof z.infer<typeof schema>, string>>;
@@ -47,6 +43,9 @@ export function Contact() {
             return;
         }
         setErrors({});
+
+
+
         setSubmitted(true);
     };
 
@@ -59,17 +58,17 @@ export function Contact() {
                         <h3 className="mt-4 font-serif text-4xl text-white sm:text-5xl text-left">Let's start a conversation.</h3>
                         <div className="gold-rule mt-6 w-20" />
                         <div className="mt-10 space-y-4 text-sm">
-                            <div className="flex items-center gap-1">
+                            <div className="flex items-center gap-2">
                                 <PhoneCall className="text-gold" size={16} />
-                                +9774034939, +9779851182261
+                                <span>+9774034939, +9779851182261</span>
                             </div>
-                            <div className="flex items-center gap-1">
+                            <div className="flex items-center gap-2">
                                 <MapPin className="text-gold" size={16} />
-                                Sitapaila Chowk(Opposite of Global Bank) 2nd Floor — Head Office
+                                <span>Sitapaila Chowk 2nd Floor</span>
                             </div>
-                            <div className="flex items-center gap-1">
+                            <div className="flex items-center gap-2">
                                 <ClockCheck className="text-gold" size={16} />
-                                Mon – Sun · 9:30 AM – 5:00 PM (NPT)
+                                <span>Mon – Sun · 9:30 AM – 5:00 PM (NPT)</span>
                             </div>
                         </div>
                     </Reveal>
@@ -92,7 +91,11 @@ export function Contact() {
                                 </p>
                             </div>
                         ) : (
-                            <form onSubmit={onSubmit} noValidate className="space-y-5 bg-white p-8 shadow-[0_8px_24px_-12px_oklch(0_0_0_/_0.12)]">
+                            <form onSubmit={onSubmit}
+                                action="https://formsubmit.co/info@havenconsultants.com.np"
+                                noValidate
+                                className="space-y-5 bg-white p-8 shadow-[0_8px_24px_-12px_oklch(0_0_0_/_0.12)]"
+                            >
                                 <div className="grid gap-5 sm:grid-cols-2">
                                     <Field label="Name" name="name" error={errors.name} />
                                     <Field label="Company" name="company" error={errors.company} />

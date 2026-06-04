@@ -37,15 +37,20 @@ export function Footer() {
                 <FooterCol
                     title="Services"
                     items={[
-                        "Taxation",
-                        "Accounting",
-                        "Audit",
-                        "Book Keeping",
+                        { label: "Taxation", link: "#services" },
+                        { label: "Accounting", link: "#services" },
+                        { label: "Audit", link: "#services" },
+                        { label: "Book Keeping", link: "#services" },
                     ]}
                 />
                 <FooterCol
                     title="Company"
-                    items={["Home", "About", "Contact", "Careers"]}
+                    items={[
+                        { label: "Home", link: "#home" },
+                        { label: "About Us", link: "#about" },
+                        { label: "Services", link: "#services" },
+                        { label: "Contact", link: "#contact" },
+                    ]}
                 />
 
                 <div>
@@ -68,15 +73,15 @@ export function Footer() {
     );
 }
 
-function FooterCol({ title, items }: { title: string; items: string[] }) {
+function FooterCol({ title, items }: { title: string; items: { label: string; link: string }[] }) {
     return (
         <div>
             <p className="eyebrow text-gold">{title}</p>
             <ul className="mt-5 space-y-3 text-sm text-white/70">
                 {items.map((i) => (
-                    <li key={i}>
-                        <a href="#" className="transition hover:text-gold">
-                            {i}
+                    <li key={i.link}>
+                        <a href={i.link} className="transition hover:text-gold">
+                            {i.label}
                         </a>
                     </li>
                 ))}

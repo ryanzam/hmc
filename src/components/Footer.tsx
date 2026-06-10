@@ -78,8 +78,8 @@ function FooterCol({ title, items }: { title: string; items: { label: string; li
         <div>
             <p className="eyebrow text-gold">{title}</p>
             <ul className="mt-5 space-y-3 text-sm text-white/70">
-                {items.map((i) => (
-                    <li key={i.link}>
+                {items.map((i, idx) => (
+                    <li key={idx}>
                         <a href={i.link} className="transition hover:text-gold">
                             {i.label}
                         </a>

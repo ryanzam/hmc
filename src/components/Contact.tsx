@@ -60,7 +60,10 @@ export function Contact() {
                         <div className="mt-10 space-y-4 text-sm">
                             <div className="flex items-center gap-2">
                                 <PhoneCall className="text-gold" size={16} />
-                                <span>+9774034939, +9779851182261</span>
+                                <span className="flex gap-2 ">
+                                    <a href="tel:+9774034939">+977 4034939,</a>
+                                    <a href="tel:+9779851182261">+977 9851182261</a>
+                                </span>
                             </div>
                             <div className="flex items-center gap-2">
                                 <MapPin className="text-gold" size={16} />

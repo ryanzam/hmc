@@ -1,7 +1,7 @@
 import { useState, type FormEvent } from "react";
 import { z } from "zod";
 import { Reveal } from "./Reveal";
-import { ClockCheck, MapPin, PhoneCall } from "lucide-react";
+import { ClockCheck, MailCheckIcon, MapPin, PhoneCall } from "lucide-react";
 
 const schema = z.object({
     name: z.string().trim().min(1, "Please enter your name").max(100),
@@ -17,10 +17,14 @@ const schema = z.object({
 });
 
 const services = [
-    "Accounting ",
-    "Auditing",
-    "Bookkeeping",
-    "Taxation",
+    "Strategic Planning",
+    "Financial Management",
+    "Operational Efficiency",
+    "Human Resources",
+    "Market Research & Analysis",
+    "Technology Integration",
+    "Marketing and Branding",
+    "Risk Management"
 ];
 
 type Errors = Partial<Record<keyof z.infer<typeof schema>, string>>;
@@ -87,8 +91,8 @@ export function Contact() {
                     <Reveal delay={120} className="lg:col-span-3">
                         {submitted ? (
                             <div className="border-l-2 border-gold bg-white p-10 shadow-[0_8px_24px_-12px_oklch(0_0_0_/_0.12)]">
-                                <h3 className="font-serif text-2xl text-navy">Thank you.</h3>
-                                <p className="mt-3 text-charcoal/75">
+                                <h3 className="font-serif text-2xl text-navy flex items-center gap-2"><MailCheckIcon /> Thank you.</h3>
+                                <p className="mt-3 text-charcoal/60">
                                     We've received your request and a member of our team will be in touch within
                                     one business day.
                                 </p>
@@ -131,7 +135,7 @@ export function Contact() {
                                 </div>
                                 <button
                                     type="submit"
-                                    className="rounded-full bg-navy px-6 py-3 text-sm font-medium text-white transition hover:bg-navy-deep"
+                                    className="rounded-full bg-navy px-6 py-3 text-sm font-medium text-white transition hover:bg-navy-deep cursor-pointer"
                                 >
                                     Send Inquiry
                                 </button>

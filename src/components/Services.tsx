@@ -12,7 +12,7 @@ import {
 
 import { Reveal } from "./Reveal";
 
-const services: { icon: LucideIcon; title: string; body: string }[] = [
+export const services: { icon: LucideIcon; title: string; body: string }[] = [
     { icon: NotebookPenIcon, title: "Strategic Planning", body: "Assisting businesses in developing and executing effective long-term strategies for growth and competitiveness." },
     { icon: Calculator, title: "Financial Management", body: "Providing financial analysis, budgeting, and forecasting to optimize financial performance and profitability." },
     { icon: CalendarCogIcon, title: "Operational Efficiency", body: "Identifying and implementing process improvements and cost-saving measures." },

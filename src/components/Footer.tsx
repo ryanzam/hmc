@@ -18,7 +18,7 @@ export function Footer() {
                         <span className="font-serif text-2xl font-bold text-white">HMC</span>
                     </div>
                     <p className="mt-4 text-sm text-white/60">
-                        Finance, tax, audit & book keeping for Nepali businesses since 2018.
+                        Finance professionals, tax experts and book keepers for Nepali businesses since 2018.
                     </p>
                     <div className="mt-6 flex gap-3">
                         {SocialLinks.map((Social, i) => (
@@ -37,10 +37,14 @@ export function Footer() {
                 <FooterCol
                     title="Services"
                     items={[
-                        { label: "Taxation", link: "#services" },
-                        { label: "Accounting", link: "#services" },
-                        { label: "Audit", link: "#services" },
-                        { label: "Book Keeping", link: "#services" },
+                        { label: "Strategic Planning", link: "#services" },
+                        { label: "Financial Management", link: "#services" },
+                        { label: "Operational Efficiency", link: "#services" },
+                        { label: "Human Resources", link: "#services" },
+                        { label: "Market Research & Analysis", link: "#services" },
+                        { label: "Technology Integration", link: "#services" },
+                        { label: "Marketing and Branding", link: "#services" },
+                        { label: "Risk Management", link: "#services" },
                     ]}
                 />
                 <FooterCol
@@ -55,12 +59,26 @@ export function Footer() {
 
                 <div>
                     <p className="eyebrow text-gold">Contact</p>
-                    <ul className="mt-5 space-y-3 text-sm text-white/70">
-                        <li>+9774034939, +9779851182261</li>
-                        <li>info@havenconsultants.com.np, support@havenconsultants.com.np</li>
-                        <li>Sitapaila Chowk(Opposite Global Bank),2nd Floor,
-                            Kathmandu, Bagmati</li>
-                    </ul>
+                    <div className="mt-5 space-y-3 text-sm text-white/70">
+                        <div className="flex gap-1">
+                            <a href="tel:+9774034939" className="transition hover:text-gold">+9774034939</a>,
+                            <a href="tel:+9779851182261" className="transition hover:text-gold">+9779851182261</a>
+                        </div>
+                        <div className="flex flex-col">
+                            <a href="mailto:info@havenconsultants.com.np" className="transition hover:text-gold">
+                                info@havenconsultants.com.np
+                            </a>
+                            <a href="mailto:support@havenconsultants.com.np" className="transition hover:text-gold">
+                                support@havenconsultants.com.np
+                            </a>
+                        </div>
+                        <div>
+                            <a className="transition hover:text-gold" target="_blank" href="https://www.google.com/maps/place/Haven+Management+Consultants+(P)+Ltd./@27.7085442,85.2822667,17z/data=!3m1!4b1!4m6!3m5!1s0x39eb196b361cd501:0x160f477d4822a7a1!8m2!3d27.7085442!4d85.2822667!16s%2Fg%2F11hzvw_sh3?entry=ttu&g_ep=EgoyMDI2MDYwMy4xIKXMDSoASAFQAw%3D%3D">
+                                Sitapaila Chowk (Opposite Global Bank),2nd Floor,
+                                Kathmandu, Bagmati
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
 

@@ -13,11 +13,14 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Haven Management Consultants | Professional Consulting Services Nepal</title>
+        <title>Haven Management Consultants | Auditing, Book keeping and Account Consulting Services in Kathmandu, Nepal</title>
         <meta name="description" content="Leading financial and audit consulting services in Sitapaila, Kathmandu, Nepal." />
         <link rel="canonical" href="https://havenconsultants.com.np" />
-        <meta property="og:title" content="Haven Consultants" />
-        <meta property="og:image" content="https://havenconsultants.com.npog-image.jpg" />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Haven Management Consultants" />
+        <meta property="og:description" content="Expert financial, management, and corporate business consulting services in Nepal. Contact info@havenconsultants.com.np." />
+        <meta property="og:url" content="https://havenconsultants.com.np" />
       </Helmet>
       <main className="min-h-screen bg-surface">
         <Navbar />

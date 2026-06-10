@@ -1,15 +1,26 @@
 import {
     Calculator,
-    BookOpen,
     Search,
     type LucideIcon,
+    NotebookPenIcon,
+    CalendarCogIcon,
+    Users,
+    BookSearchIcon,
+    BlocksIcon,
+    AwardIcon,
 } from "lucide-react";
+
 import { Reveal } from "./Reveal";
 
 const services: { icon: LucideIcon; title: string; body: string }[] = [
-    { icon: Calculator, title: "Accounting", body: "VAT, income tax filing for Nepali businesses." },
-    { icon: BookOpen, title: "Bookkeeping", body: "Accurate, timely financial records using modern accounting software." },
-    { icon: Search, title: "Auditing", body: "Independent financial audits that build credibility with stakeholders." },
+    { icon: NotebookPenIcon, title: "Strategic Planning", body: "Assisting businesses in developing and executing effective long-term strategies for growth and competitiveness." },
+    { icon: Calculator, title: "Financial Management", body: "Providing financial analysis, budgeting, and forecasting to optimize financial performance and profitability." },
+    { icon: CalendarCogIcon, title: "Operational Efficiency", body: "Identifying and implementing process improvements and cost-saving measures." },
+    { icon: Users, title: "Human Resources", body: "Offering HR consulting services, including talent acquisition, performance management, and employee development." },
+    { icon: BookSearchIcon, title: "Market Research & Analysis", body: "Conducting market research to help businesses understand their target audience and make informed decisions." },
+    { icon: BlocksIcon, title: "Technology Integration", body: "Advising on the adoption and integration of technology solutions to streamline operations and enhance productivity." },
+    { icon: AwardIcon, title: "Marketing and Branding", body: "Developing marketing strategies, brand positioning, and customer engagement plans to boost visibility and sales." },
+    { icon: Search, title: "Risk Management", body: "Identifying and mitigating business risks, including regulatory compliance and cybersecurity." },
 ];
 
 export function Services() {

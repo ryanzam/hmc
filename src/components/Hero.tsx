@@ -19,10 +19,10 @@ export function Hero() {
                         <span className="italic text-gold-soft">Expertly Managed.</span>
                     </h1>
                     <p className="mt-7 max-w-xl text-base font-light leading-relaxed text-white/75 sm:text-lg">
-                        Haven Management Consultants brings together finance professionals, tax experts, book keepers
-                        and legal practitioners to handle your business's financial complexities — so you
-                        can focus on what you do best.
+                        Dedicated team of finance professionals, tax experts,
+                        book keepers and legal practitioners. Working together to provide affordable yet quality business management related services.
                     </p>
+
                     <div className="mt-10 flex flex-wrap gap-4">
                         <a
                             href="https://wa.me/009779851182261?text=Hi%20Im%20interested%20in%20your%20services"

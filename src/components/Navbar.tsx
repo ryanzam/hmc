@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, Phone } from "lucide-react";
 
 const links = [
     { href: "#home", label: "Home" },
@@ -52,6 +52,7 @@ export function Navbar() {
                     href="tel:+9774034939"
                     className="hidden rounded-full bg-gold px-5 py-2.5 text-sm font-medium text-navy transition hover:brightness-95 md:inline-block"
                 >
+                    <Phone className="inline-block mr-1" size={16} />
                     Call Us Now
                 </a>
 
@@ -87,8 +88,9 @@ export function Navbar() {
                         <a
                             onClick={() => setOpen(false)}
                             href="tel:+9774034939"
-                            className="mt-6 rounded-full bg-gold px-6 py-3 text-sm font-medium text-navy"
+                            className="mt-6 rounded-full bg-gold px-6 py-3 text-lg font-medium text-navy"
                         >
+                            <Phone className="inline-block mr-1" size={16} />
                             Call Us Now
                         </a>
                     </ul>

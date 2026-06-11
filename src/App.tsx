@@ -7,6 +7,7 @@ import { Services } from './components/Services'
 import { Contact } from './components/Contact'
 import { Footer } from './components/Footer'
 import { Helmet } from 'react-helmet-async';
+import { WhyUs } from './components/WhyUs'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Hero />
         <AboutUs />
         <Services />
+        <WhyUs />
         <Contact />
         <Footer />
       </main>

@@ -5,6 +5,7 @@ const links = [
     { href: "#home", label: "Home" },
     { href: "#about", label: "About Us" },
     { href: "#services", label: "Services" },
+    { href: "#why", label: "Why Us" },
     { href: "#contact", label: "Contact" },
 ];
 
@@ -25,13 +26,14 @@ export function Navbar() {
                 }`}
         >
             <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
-                <a href="#home" className="flex items-center gap-1">
+                <a href="#home" className="flex items-center gap-1 hover:animate-bounce">
                     <span
                         className={`font-serif text-2xl font-bold tracking-tight ${scrolled ? "text-navy" : "text-white"
                             }`}
                     >
                         HMC
                     </span>
+                    <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gold" aria-hidden />
                 </a>
 
                 <ul className="hidden items-center gap-9 md:flex">

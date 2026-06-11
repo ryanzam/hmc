@@ -13,14 +13,14 @@ export function Hero() {
         >
             <div className="mx-auto grid w-full max-w-7xl grid-cols-1 gap-12 px-6 pt-32 pb-24 lg:grid-cols-5 lg:px-10">
                 <div className="lg:col-span-3">
-                    <h1 className="mt-6 font-serif text-5xl leading-[1.05] text-white sm:text-6xl lg:text-7xl">
-                        Your Finances,
-                        <br />
-                        <span className="italic text-gold-soft">Expertly Managed.</span>
-                    </h1>
-                    <p className="mt-7 max-w-xl text-base font-light leading-relaxed text-white/75 sm:text-lg">
+                    <p className="text-center md:text-left text-gold">Helping Clients Since 2018</p>
+                    <h1 className="mt-6 font-serif text-3xl text-center md:text-left leading-[1.05] text-white lg:text-6xl">
                         Dedicated team of finance professionals, tax experts,
-                        book keepers and legal practitioners. Working together to provide affordable yet quality business management related services.
+                        <br />
+                        <span className="italic text-gold-soft">book keepers and legal practitioners</span>
+                    </h1>
+                    <p className="text-center md:text-left mt-7 max-w-xl text-base font-light leading-relaxed text-white/75 sm:text-lg">
+                        Working together to provide affordable yet quality business management related services.
                     </p>
 
                     <div className="mt-10 flex flex-wrap gap-4">

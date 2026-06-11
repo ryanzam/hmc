@@ -16,6 +16,7 @@ export function Footer() {
                 <div>
                     <div className="flex items-center gap-1">
                         <span className="font-serif text-2xl font-bold text-white">HMC</span>
+                        <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gold" aria-hidden />
                     </div>
                     <p className="mt-4 text-sm text-white/60">
                         Finance professionals, tax experts and book keepers for Nepali businesses since 2018.
@@ -53,6 +54,7 @@ export function Footer() {
                         { label: "Home", link: "#home" },
                         { label: "About Us", link: "#about" },
                         { label: "Services", link: "#services" },
+                        { label: "Why Us", link: "#why" },
                         { label: "Contact", link: "#contact" },
                     ]}
                 />

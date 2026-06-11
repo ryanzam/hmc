@@ -33,7 +33,7 @@ export function Services() {
                     <div className="gold-rule mx-auto mt-8 w-24" />
                 </Reveal>
 
-                <div className="mt-16 grid gap-6 grid-cols-1 md:grid-cols-3">
+                <div className="mt-16 grid gap-6 grid-cols-1 md:grid-cols-4">
                     {services.map((s, i) => (
                         <Reveal key={s.title} delay={(i % 4) * 80}>
                             <div className="service-card h-full p-7">

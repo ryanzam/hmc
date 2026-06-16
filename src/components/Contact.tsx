@@ -65,8 +65,7 @@ export function Contact() {
                             <div className="flex items-center gap-2">
                                 <PhoneCall className="text-gold" size={16} />
                                 <span className="flex gap-2 ">
-                                    <a href="tel:+9774034939">+977 4034939,</a>
-                                    <a href="tel:+9779851182261">+977 9851182261</a>
+                                    <a href="tel:+9774034939">+977 4034939</a>
                                 </span>
                             </div>
                             <div className="flex items-center gap-2">

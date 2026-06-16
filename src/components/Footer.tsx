@@ -63,8 +63,7 @@ export function Footer() {
                     <p className="eyebrow text-gold">Contact</p>
                     <div className="mt-5 space-y-3 text-sm text-white/70">
                         <div className="flex gap-1">
-                            <a href="tel:+9774034939" className="transition hover:text-gold">+9774034939</a>,
-                            <a href="tel:+9779851182261" className="transition hover:text-gold">+9779851182261</a>
+                            <a href="tel:+9774034939" className="transition hover:text-gold">+9774034939</a>
                         </div>
                         <div className="flex flex-col">
                             <a href="mailto:info@havenconsultants.com.np" className="transition hover:text-gold">

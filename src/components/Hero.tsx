@@ -25,8 +25,7 @@ export function Hero() {
 
                     <div className="mt-10 flex flex-wrap gap-4 justify-center md:justify-start">
                         <a
-                            href="https://wa.me/009779851182261?text=Hi%20Im%20interested%20in%20your%20services"
-                            target="_blank"
+                            href="#contact"
                             className="inline-flex items-center gap-2 rounded-full bg-gold px-6 py-3 text-sm font-medium text-navy transition hover:brightness-95"
                         >
                             Contact Us <ArrowRight size={16} />

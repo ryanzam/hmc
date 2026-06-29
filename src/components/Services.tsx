@@ -19,7 +19,7 @@ export const services: { icon: LucideIcon; title: string; body: string }[] = [
     { icon: Building2Icon, title: "Company Registration", body: "Private, Pvt. Ltd., One Person Company including all types of comapny registration service." },
     { icon: ScrollTextIcon, title: "Form Registration", body: "Partnership form, Proprietary form including other form registration service. " },
     { icon: IdCardIcon, title: "PAN/VAT Registration", body: "PAN, VAT, Taxpayer registration and annual compliance update service" },
-    { icon: Users, title: "Human Resources", body: "Offering HR consulting services, including talent acquisition, performance management, and employee development." },
+    { icon: Users, title: "Tax Advisory", body: "Offering tax planning, tax returns and all the tax related consultancy service" },
     { icon: BookSearchIcon, title: "Market Research & Analysis", body: "Conducting market research to help businesses understand their target audience and make informed decisions." },
     { icon: BlocksIcon, title: "Technology Integration", body: "Advising on the adoption and integration of technology solutions to streamline operations and enhance productivity." },
     { icon: AwardIcon, title: "Marketing and Branding", body: "Developing marketing strategies, brand positioning, and customer engagement plans to boost visibility and sales." },

@@ -8,12 +8,13 @@ import {
     BookSearchIcon,
     BlocksIcon,
     AwardIcon,
+    Building2Icon,
 } from "lucide-react";
 
 import { Reveal } from "./Reveal";
 
 export const services: { icon: LucideIcon; title: string; body: string }[] = [
-    { icon: NotebookPenIcon, title: "Strategic Planning", body: "Assisting businesses in developing and executing effective long-term strategies for growth and competitiveness." },
+    { icon: Building2Icon, title: "Company Registration", body: "Private, Pvt. Ltd., One Person Company including all types of comapny registration service." },
     { icon: Calculator, title: "Financial Management", body: "Providing financial analysis, budgeting, and forecasting to optimize financial performance and profitability." },
     { icon: CalendarCogIcon, title: "Operational Efficiency", body: "Identifying and implementing process improvements and cost-saving measures." },
     { icon: Users, title: "Human Resources", body: "Offering HR consulting services, including talent acquisition, performance management, and employee development." },
@@ -32,6 +33,8 @@ export function Services() {
                     <h2 className="mt-4 font-serif text-4xl sm:text-5xl">Our Services</h2>
                     <div className="gold-rule mx-auto mt-8 w-24" />
                 </Reveal>
+
+
 
                 <div className="mt-16 grid gap-6 grid-cols-1 md:grid-cols-4">
                     {services.map((s, i) => (

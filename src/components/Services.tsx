@@ -10,6 +10,7 @@ import {
     AwardIcon,
     Building2Icon,
     ScrollTextIcon,
+    IdCardIcon,
 } from "lucide-react";
 
 import { Reveal } from "./Reveal";
@@ -17,7 +18,7 @@ import { Reveal } from "./Reveal";
 export const services: { icon: LucideIcon; title: string; body: string }[] = [
     { icon: Building2Icon, title: "Company Registration", body: "Private, Pvt. Ltd., One Person Company including all types of comapny registration service." },
     { icon: ScrollTextIcon, title: "Form Registration", body: "Partnership form, Proprietary form including other form registration service. " },
-    { icon: CalendarCogIcon, title: "Operational Efficiency", body: "Identifying and implementing process improvements and cost-saving measures." },
+    { icon: IdCardIcon, title: "PAN/VAT Registration", body: "PAN, VAT, Taxpayer registration and annual compliance update service" },
     { icon: Users, title: "Human Resources", body: "Offering HR consulting services, including talent acquisition, performance management, and employee development." },
     { icon: BookSearchIcon, title: "Market Research & Analysis", body: "Conducting market research to help businesses understand their target audience and make informed decisions." },
     { icon: BlocksIcon, title: "Technology Integration", body: "Advising on the adoption and integration of technology solutions to streamline operations and enhance productivity." },

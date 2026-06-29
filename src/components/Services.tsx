@@ -9,13 +9,14 @@ import {
     BlocksIcon,
     AwardIcon,
     Building2Icon,
+    ScrollTextIcon,
 } from "lucide-react";
 
 import { Reveal } from "./Reveal";
 
 export const services: { icon: LucideIcon; title: string; body: string }[] = [
     { icon: Building2Icon, title: "Company Registration", body: "Private, Pvt. Ltd., One Person Company including all types of comapny registration service." },
-    { icon: Calculator, title: "Financial Management", body: "Providing financial analysis, budgeting, and forecasting to optimize financial performance and profitability." },
+    { icon: ScrollTextIcon, title: "Form Registration", body: "Partnership form, Proprietary form including other form registration service. " },
     { icon: CalendarCogIcon, title: "Operational Efficiency", body: "Identifying and implementing process improvements and cost-saving measures." },
     { icon: Users, title: "Human Resources", body: "Offering HR consulting services, including talent acquisition, performance management, and employee development." },
     { icon: BookSearchIcon, title: "Market Research & Analysis", body: "Conducting market research to help businesses understand their target audience and make informed decisions." },

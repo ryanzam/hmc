@@ -38,14 +38,19 @@ export function Footer() {
                 <FooterCol
                     title="Services"
                     items={[
-                        { label: "Strategic Planning", link: "#services" },
-                        { label: "Financial Management", link: "#services" },
-                        { label: "Operational Efficiency", link: "#services" },
-                        { label: "Human Resources", link: "#services" },
-                        { label: "Market Research & Analysis", link: "#services" },
-                        { label: "Technology Integration", link: "#services" },
-                        { label: "Marketing and Branding", link: "#services" },
-                        { label: "Risk Management", link: "#services" },
+
+                        { label: "Accounting & Book Keeping", link: "#services" },
+                        { label: "Business Plan & Project Report", link: "#services" },
+                        { label: "Company Registration", link: "#services" },
+                        { label: "Compliance Service", link: "#services" },
+                        { label: "FDI Approval", link: "#services" },
+                        { label: "Form Registration", link: "#services" },
+                        { label: "NGO/INGO Service", link: "#services" },
+                        { label: "PAN/VAT Registration", link: "#services" },
+                        { label: "Preparation of Financial Statements", link: "#services" },
+                        { label: "Tax Counseling", link: "#services" },
+                        { label: "Tax Returns", link: "#services" },
+                        { label: "Tax & Accouting Training", link: "#services" },
                     ]}
                 />
                 <FooterCol

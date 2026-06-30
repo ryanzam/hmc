@@ -58,7 +58,7 @@ export function Contact() {
             <div className="hero-noise bg-navy py-24 text-white lg:py-32">
                 <div className="mx-auto max-w-3xl px-6 text-center lg:px-10">
                     <Reveal>
-                        <p className="eyebrow text-gold text-left">Contact</p>
+                        <p className="eyebrow text-gold text-left">Keep in touch</p>
                         <h3 className="mt-4 font-serif text-4xl text-white sm:text-5xl text-left">Let's start a conversation.</h3>
                         <div className="gold-rule mt-6 w-20" />
                         <div className="mt-10 space-y-4 text-sm">

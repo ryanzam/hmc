@@ -82,7 +82,7 @@ export function Contact() {
             </div>
 
             <div className="w-full h-100" >
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.283098821798!2d85.27969713937978!3d27.70854417628097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb196b361cd501%3A0x160f477d4822a7a1!2sHaven%20Management%20Consultants%20(P)%20Ltd.!5e0!3m2!1sen!2snp!4v1780490012403!5m2!1sen!2snp" style={{ width: "100%", height: "100%", border: 0 }} allowFullScreen={false} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title="hmc google address" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.283098821798!2d85.27969713937978!3d27.70854417628097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb196b361cd501%3A0x160f477d4822a7a1!2sHaven%20Management%20Consultants%20(P)%20Ltd.!5e0!3m2!1sen!2snp!4v1780490012403!5m2!1sen!2snp" style={{ width: "100%", height: "100%", border: 0 }} allowFullScreen={false} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div id="contact-form" className="bg-surface py-24 lg:py-32">
@@ -109,8 +109,9 @@ export function Contact() {
                                 <div className="grid gap-5 sm:grid-cols-2">
                                     <Field label="Phone" name="phone" type="tel" error={errors.phone} />
                                     <div>
-                                        <Label>Service</Label>
+                                        <Label name="service">Service</Label>
                                         <select
+                                            id="service"
                                             name="service"
                                             defaultValue=""
                                             className="mt-2 w-full border border-rule bg-white px-3 py-2.5 text-sm text-charcoal outline-none focus:border-gold"
@@ -124,8 +125,9 @@ export function Contact() {
                                     </div>
                                 </div>
                                 <div>
-                                    <Label>Message</Label>
+                                    <Label name="message">Message</Label>
                                     <textarea
+                                        id="message"
                                         name="message"
                                         rows={5}
                                         className="mt-2 w-full resize-none border border-rule bg-white px-3 py-2.5 text-sm text-charcoal outline-none focus:border-gold"
@@ -147,8 +149,8 @@ export function Contact() {
     );
 }
 
-function Label({ children }: { children: React.ReactNode }) {
-    return <label className="eyebrow text-charcoal/60">{children}</label>;
+function Label({ name, children }: { name: string, children: React.ReactNode }) {
+    return <label htmlFor={name} className="eyebrow text-charcoal/60">{children}</label>;
 }
 
 function Field({
@@ -164,8 +166,10 @@ function Field({
 }) {
     return (
         <div>
-            <Label>{label}</Label>
+            <Label name={name}>{label}</Label>
             <input
+                autoComplete="off"
+                id={name}
                 name={name}
                 type={type}
                 className="mt-2 w-full border border-rule bg-white px-3 py-2.5 text-sm text-charcoal outline-none focus:border-gold"

@@ -14,9 +14,7 @@ import {
 import type { ComponentType, SVGProps } from "react";
 
 import { Reveal } from "./Reveal";
-import { GiPayMoney } from "react-icons/gi";
 import { PiHandHeartThin } from "react-icons/pi";
-import { RiPresentationLine } from "react-icons/ri";
 
 type ServiceIcon = ComponentType<SVGProps<SVGSVGElement> & { size?: number; strokeWidth?: number }>;
 

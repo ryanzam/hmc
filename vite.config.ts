@@ -11,14 +11,5 @@ export default defineConfig({
     sitemap({
       hostname: 'https://havenconsultants.com.np'
     }),
-  ],
-  build: {
-    minify: 'esbuild', // Explicitly ensure minification is active
-    target: 'es2020',  // Outputs modern, smaller JS footprints
-    sourcemap: false,  // Disables source maps to shrink upload sizes
-  },
-  esbuild: {
-    include: /\.(ts|tsx|js|jsx)$/,
-    exclude: /node_modules/,
-  },
+  ]
 })

@@ -10,13 +10,14 @@ const SocialLinks = [
 
 export function Footer() {
     return (
-        <footer className="relative bg-navy-deep text-white/80">
+        <footer className="relative bg-navy text-white/80">
             <div className="absolute inset-x-0 top-0 h-px bg-gold" aria-hidden />
             <div className="mx-auto grid max-w-7xl gap-12 px-6 py-16 sm:grid-cols-2 lg:grid-cols-4 lg:px-10">
                 <div>
-                    <div className="flex items-center gap-1">
-                        <span className="font-serif text-2xl font-bold text-white">HMC</span>
-                        <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gold" aria-hidden />
+                    <div className="flex items-center gap-5">
+                        <span className="font-serif text-2xl font-bold text-white">
+                            <img src="/logo2.svg" alt="HMC Logo" className="h-20 w-auto" />
+                        </span>
                     </div>
                     <p className="mt-4 text-sm text-white/60">
                         Finance professionals, tax experts and book keepers for Nepali businesses since 2018.
@@ -43,14 +44,13 @@ export function Footer() {
                         { label: "Business Plan & Project Report", link: "#services" },
                         { label: "Company Registration", link: "#services" },
                         { label: "Compliance Service", link: "#services" },
-                        { label: "FDI Approval", link: "#services" },
                         { label: "Form Registration", link: "#services" },
                         { label: "NGO/INGO Service", link: "#services" },
                         { label: "PAN/VAT Registration", link: "#services" },
                         { label: "Preparation of Financial Statements", link: "#services" },
                         { label: "Tax Counseling", link: "#services" },
                         { label: "Tax Returns", link: "#services" },
-                        { label: "Tax & Accouting Training", link: "#services" },
+                        { label: "Tax & Accounting Training", link: "#services" },
                     ]}
                 />
                 <FooterCol

@@ -22,18 +22,17 @@ export function Navbar() {
 
     return (
         <header
-            className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${scrolled ? "bg-white/80 backdrop-blur shadow-[0_1px_0_var(--rule)]" : "bg-transparent"
+            className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${scrolled ? "bg-white/80 backdrop-blur shadow-[0_1px_0_var(--rule)]" : "bg-white"
                 }`}
         >
             <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
-                <a href="#home" className="flex items-center gap-1 hover:animate-bounce">
+                <a href="/" className="flex items-center gap-1">
                     <span
-                        className={`font-serif text-2xl font-bold tracking-tight ${scrolled ? "text-navy" : "text-white"
+                        className={`font-serif text-2xl font-bold tracking-tight ${scrolled ? "text-navy" : "text-sky-blue"
                             }`}
                     >
-                        HMC
+                        <img src="/logo.png" alt="HMC Logo" className="h-10 w-auto" />
                     </span>
-                    <span className="mt-2 h-1.5 w-1.5 rounded-full bg-gold" aria-hidden />
                 </a>
 
                 <ul className="hidden items-center gap-9 md:flex">
@@ -41,7 +40,7 @@ export function Navbar() {
                         <li key={l.href}>
                             <a
                                 href={l.href}
-                                className={`nav-link text-sm font-medium ${scrolled ? "text-charcoal" : "text-white/85"
+                                className={`nav-link text-sm font-medium ${scrolled ? "text-navy" : "text-sky-blue"
                                     }`}
                             >
                                 {l.label}

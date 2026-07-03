@@ -45,7 +45,7 @@
   --radius: 0.375rem;
 
   /* Brand palette */
-  --navy: oklch(0.24 0.05 260);
+  --navy: #1d3d5d;
   /* #0B1F3A */
   --navy-deep: oklch(0.18 0.045 260);
   --gold: oklch(0.74 0.13 85);
@@ -57,6 +57,7 @@
   /* #2D2D2D */
   --rule: oklch(0.9 0.01 70);
   /* #E2DDD6 */
+  --sky-blue: #2b5260;
 
   --background: var(--surface);
   --foreground: var(--charcoal);
@@ -181,6 +182,7 @@
     box-shadow: 0 1px 2px oklch(0 0 0 / 0.04), 0 8px 24px -12px oklch(0 0 0 / 0.08);
     transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
     border-left: 2px solid transparent;
+    height: 210px;
   }
 
   .service-card:hover {

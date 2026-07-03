@@ -3,6 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author": {
+    "name": "ryanzam",
+    "email": "ryanzam2005@yahoo.com"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",

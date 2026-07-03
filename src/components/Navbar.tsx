@@ -60,7 +60,7 @@ export function Navbar() {
                 <button
                     aria-label="Open menu"
                     onClick={() => setOpen(true)}
-                    className={`md:hidden ${scrolled ? "text-navy" : "text-white"}`}
+                    className={`md:hidden ${scrolled ? "text-navy" : "text-sky-blue"}`}
                 >
                     <Menu />
                 </button>
@@ -69,7 +69,7 @@ export function Navbar() {
             {open && (
                 <div className="mobile-menu fixed inset-0 z-60 flex flex-col bg-navy text-white">
                     <div className="flex items-center justify-between px-6 py-4">
-                        <span className="font-serif text-2xl font-bold">HMC</span>
+                        <img src="/logo.png" alt="HMC Logo" className="h-10 w-auto" />
                         <button aria-label="Close menu" onClick={() => setOpen(false)}>
                             <X />
                         </button>

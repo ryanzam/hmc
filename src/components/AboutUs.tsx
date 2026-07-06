@@ -17,13 +17,13 @@ export function AboutUs() {
                         </div>
 
                         <div className="mt-8 space-y-4 text-gray-700">
-                            <p className="text-justify text-pretty">
+                            <p className="text-justify text-pretty hyphens-auto">
                                 Founded in 2018, Haven Management Consultants Pvt. Ltd. (HMC) is a Kathmandu-based
                                 advisory firm where chartered accountants, tax specialists, and legal practitioners
                                 work side by side. We help Nepali businesses navigate complex financial and
                                 regulatory terrain with clarity.
                             </p>
-                            <p className="text-justify">
+                            <p className="text-justify text-pretty hyphens-auto">
                                 We promise to support the growth of our clients by ensuring they have the freedom to concentrate on their core operations while we manage the financial aspects efficiently. We are here to make your business journey smoother, more profitable, and ultimately more successful.
                             </p>
                         </div>

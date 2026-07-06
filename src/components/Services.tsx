@@ -36,8 +36,7 @@ export function Services() {
         <section id="services" className="bg-white py-24 lg:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-10">
                 <Reveal className="mx-auto max-w-2xl text-center">
-                    <p className="eyebrow text-gold">What We Do</p>
-                    <h2 className="mt-4 font-serif text-4xl sm:text-5xl">Our Services</h2>
+                    <p className="eyebrow text-gold">What Services we offer</p>
                     <div className="gold-rule mx-auto mt-8 w-24" />
                 </Reveal>
 
@@ -48,7 +47,7 @@ export function Services() {
                         <Reveal key={s.title} delay={(i % 4) * 80}>
                             <div className="service-card h-full p-5 flex flex-col items-center">
                                 <s.icon className="text-gold" size={32} strokeWidth={s.strokeWidth} />
-                                <h3 className="mt-6 font-serif text-xl text-navy text-center">{s.title}</h3>
+                                <h2 className="mt-6 font-serif text-xl text-navy text-center">{s.title}</h2>
                                 <p className="mt-3 text-sm leading-relaxed text-charcoal/70 text-center">{s.body}</p>
                             </div>
                         </Reveal>

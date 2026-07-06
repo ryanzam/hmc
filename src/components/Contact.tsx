@@ -16,16 +16,7 @@ const schema = z.object({
     message: z.string().trim().min(10, "Tell us a bit more (min 10 chars)").max(1000),
 });
 
-const services = [
-    "Strategic Planning",
-    "Financial Management",
-    "Operational Efficiency",
-    "Human Resources",
-    "Market Research & Analysis",
-    "Technology Integration",
-    "Marketing and Branding",
-    "Risk Management"
-];
+const services = ['Accounting & Book Keeping', 'Business Plan & Project Report', 'Company Registration', 'Compliance Service', 'Form Registration', 'NGO/INGO Service', 'PAN/VAT Registration', 'Preparation of Financial Statements', 'Tax Counseling', 'Tax Returns', 'Tax & Accounting Training']
 
 type Errors = Partial<Record<keyof z.infer<typeof schema>, string>>;
 
